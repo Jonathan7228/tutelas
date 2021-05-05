@@ -1,0 +1,2035 @@
+/*
+Theme Name: Tutelas
+Theme URI:
+Author: Edwin Alejandro Obando Hurtado
+Author URI:
+Descripcion: Tema para pagina de tutelas
+Version: 1.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tutelas
+*/
+
+
+/*
+
+#1c222d
+#5cdaed
+*/
+
+
+.navbar{
+   padding-top: 15px;
+    z-index: 50000000000000000000;
+    background-color: #56d0ed;
+  
+}
+
+@media (min-width: 768px) { 
+    
+    .btn_consulta{
+        width: 191px;          
+    }
+}
+
+
+.img-fluid{
+  margin-top: 30px!important;
+}
+
+
+p, h1, h2, h3, h4,h5,button,input{
+    font-family: 'Roboto'!important;
+}
+
+
+/* PAGINA INICIO */
+
+
+
+/*
+Cuadro consulta
+*/
+
+p, h1, h2, h3, h4,h5,button,input{
+    font-family: 'Roboto'!important;
+}
+
+
+
+
+.cuadro_consulta{
+    margin: 0px 60px 60px 60px;
+    background-color: black;
+    z-index: 10;
+    position: relative;
+    top: -50px;
+    background-color: white;
+    padding: 20px 50px 50px 50px;
+}
+
+.btn{
+    width: 191px;
+    height: 53px;
+    background-color: #1c222d;
+    margin-top: 15px; 
+    border-radius: 3px;
+    color: white !important;
+}
+
+
+.btn_consulta{
+    width: 100px;
+    height: 53px;
+    margin-top: 30px !important;
+    padding: 10px;
+    padding: 0%;
+}
+
+@media (min-width: 768px) { 
+    
+    .btn_consulta{
+        width: 191px;          
+    }
+}
+
+
+
+/* Quienes somos */
+
+
+
+.cuadroazul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 3px;
+    background-color: #5cdaed;    
+}
+
+
+
+.titulo_q{
+    color: #5cdaed;
+    margin-top: 20px;
+    
+}
+
+ .div_q{   
+    margin: 0px 0px  60px 0px;
+    background-repeat: no-repeat;
+    padding:20px 0px 0px 20px;   
+}
+
+.div_imagen_q{
+    background-repeat: no-repeat;  
+    width: 451px;
+    height: 383px;
+}
+
+.separador_q{
+    margin-right: 10px;
+}
+
+.separador_q_2{
+    margin-top: 15px;
+}
+
+
+.texto_q{
+    margin-top: 10px;
+}
+
+.fondo_azul_q{
+  
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+/* Fin Quienes somos */
+
+/* Nuestros servicios*/
+.titulo_ns{
+    padding-top: 30px;
+    color: #5cdaed;
+    
+}
+
+.titulo2_ns{    
+    color:  white; 
+    padding: 0%;   
+}
+
+
+
+.imagen_ns{
+    width: 100%;
+}
+
+
+
+.contenedorNuestrosServicios{
+    margin-top: 20px;
+    height: 100%;
+    width: 100% ;
+    padding: 100px;
+    background-image: url('./img/image.png');    
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    height: 274px;
+}
+
+.card p{
+    font-size: 14px!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal!important;
+    letter-spacing: normal!important;
+    text-align: center!important;
+}
+
+.card img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.texto_ns{
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c222d;
+}
+/* Nuestros servicios*/
+
+
+/* El ABC de la acción de tutela*/
+
+.chulo{
+
+height: 20px !important;
+}
+
+.div_conoce{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-repeat: no-repeat; 
+    background-position-x: right; 
+    padding-top: 20px;
+   
+}
+
+
+
+.div_imagen_conoce{    
+        background-repeat: no-repeat;
+        width: 420px;
+        height: 459px;       
+}
+
+
+.separador_item{
+    margin-top: 10px;
+}
+
+/* Fin el ABC*/
+
+/* INICIO  PASOS*/
+.div_pasos{
+    margin-bottom: 50px;
+}
+
+.imagen_pasos{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.texto_pasos{
+    height: 400px;
+    background-color: #efecec;
+}
+
+.circulo{
+    width: 70px;
+    height: 70px;    
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #5cdaed;
+    margin-top: 45px;   
+    margin-left: 20px;
+     
+}
+
+@media (min-width: 768px) { 
+    
+    .circulo{
+    max-width: 70px !important;
+    height: 70px!important;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 300px;
+    background-color: #5cdaed;
+    margin-top: 45px;   
+    position: relative;
+    left: -55px;    
+    }
+    
+
+}
+
+
+
+.circulo p{
+    
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;  
+    color: #1c222d;
+    margin-top: 15px;    
+} 
+
+
+
+
+.p_pasos{
+    margin-top:70px;
+}
+
+/* FIN PASOS*/
+
+/*FIN PAGINA INICIO*/
+
+/*INICIO PAGINA QUIENES SOMOS*/
+
+
+
+.quienes_conoce{
+    margin-top: 50PX !important;
+    margin-bottom: 50PX;
+}
+
+.quienes_collage{
+    background-position-y: left;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px !important;
+    margin-bottom: 50PX;
+
+}
+
+.quienes_collage .collage1{
+    width: 100%;
+    height: 250px;
+    padding: 0%;
+    margin: 0%;   
+  
+    }
+
+    .div_texto_procesos{
+    font-size: 16px;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    }
+.div_texto_procesos p{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-right: 60px;
+        
+}
+
+
+
+
+.div_quienes_consulta{
+    padding: 30px;  
+    background-color: #1c222d;
+    color: white;
+
+}
+
+.btn_quienes_consulta{
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    background-color: white;
+    color: black !important;
+}
+
+.quienes_carousel{
+margin-top: 50px;margin-bottom: 50px;
+}
+    
+
+.linea{
+  border-bottom: solid 1px #979797;
+  margin-bottom: 50px;
+}
+
+.borde{
+    border: solid 1px white;
+}
+
+
+
+.wpcp-all-captions{
+    background-color: white;
+    border-radius: 5px solid white !important;
+    
+}
+
+#sp-wp-carousel-free-id-110.sp-wpcp-110 .wpcp-single-item{
+    border: 1px solid white;
+}
+
+.wpcp-slide-image{
+    width: 334px;
+    height: 331px;
+}
+
+
+
+/*FIN PAGINA QUIENES SOMOS*/
+
+
+/*INICIO SERVICIOS*/
+
+.servicios_conoce{
+    min-height: 280px;
+    
+    
+}
+
+.servicios_conoce .col-md-6{
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+
+.servicio_conoce_negro{
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+.servicios_cuadriculas{
+   min-height: 480px !important;
+}
+
+.servicios_cuadriculas .col-md-6{
+    min-height: 480px !important;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.contacto_servicios{
+    min-height: 500px;    
+}
+
+.alinear{
+    padding-top: 80px;
+ 
+}
+
+
+.formulario_servicios{
+ padding: 50px 50px 50px 0;
+  max-width: 320px!important;
+}
+
+
+@media (min-width: 411px) { 
+         .formulario_servicios{
+ padding: 50px 0px 50px 30px;
+  max-width: 320px!important;
+}
+}
+
+
+
+
+.formulario_servicios .div_contacto{
+ padding: 30px 0px 20px 50px;
+ border: solid 1px #5cdaed;
+ box-shadow: 10px 5px 5px black;
+ border-radius: 10px;
+
+
+}
+
+
+.wpcf7-submit{
+    background-color: #5cdaed;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+
+.wpcf7-form{
+    max-width: 100px!important;
+}
+
+
+.input_formulario_servicios{
+   max-width: 220px!important;
+   border: solid 1px gray;
+   height: 50px;
+   padding: 20px;
+   border-radius: 1px;
+}
+
+.input_formulario_servicios::placeholder{
+   color: black;
+   font-size:  12px!important;
+}
+
+
+
+@media (min-width: 359px) { 
+       .formulario_servicios{
+        max-width: 360px!important;
+    }
+
+    
+    .input_formulario_servicios{
+        max-width: 240px!important;
+    }
+}
+
+
+@media (min-width: 411px) { 
+             .formulario_servicios{
+        max-width: 360px!important;
+    }
+    
+    
+    .input_formulario_servicios{
+        max-width: 260px!important;
+    }
+}
+
+
+@media (min-width: 600px) { 
+             .formulario_servicios{
+        max-width: 500px!important;
+    }
+    
+    
+    .input_formulario_servicios{
+        max-width: 380px!important;
+    }
+}
+
+
+
+@media (min-width: 768px) { 
+         .formulario_servicios{
+        max-width: 360px!important;
+    }
+    
+    .input_formulario_servicios{
+        max-width: 240px!important;
+    }
+}
+
+
+
+@media (min-width: 1000px) { 
+    
+    
+             .formulario_servicios{
+        max-width: 500px!important;
+    }
+    
+    .input_formulario_servicios{
+        max-width: 400px!important;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    
+    
+             .formulario_servicios{
+        max-width: 550px!important;
+    }
+    
+    .input_formulario_servicios{
+        max-width: 500px!important;
+    }
+}
+
+
+.input_mensaje{
+ height: 140px;   
+}
+
+
+
+/*FIN SERVICIOS*/
+
+
+
+
+/*
+FOOTER
+*/
+
+.margenes{
+margin-left: 60px;
+}
+
+.div_azul_footer{
+    
+    background-color: #5cdaed;
+    padding: 36px;
+    z-index: 300;
+}
+
+.div_azul_footer div div h3{    
+    color: white;
+    margin: 0%;
+    font-weight: bold;
+    
+}
+.div_azul_footer div div p{     
+    margin: 0%;
+}
+
+.div_azul_footer div{    
+    padding: 0px 0px 0px 0px;
+}
+
+.titulo_blanco{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*
+FIN FOOTER
+*/
+
+
+
+.titulo_menu{
+    margin-left: 15px;
+    color: #5cdaed;
+}
+
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris: #f5f5f5;
+}
+
+body {
+    font-family: 'Roboto';
+    color:#303030;
+    padding: 0px;
+}
+
+.badge-secondary {
+    background-color: #c7c57d!important;
+    color: black;
+}
+
+body.index .clases {
+    background-color: #f5f5f5;
+}
+.imagen > div{
+    height: 30rem;
+}
+@media (min-width:768px) {
+    .imagen > div{
+        height: 45rem;
+    }
+}
+.bg-primary, 
+.alert-primary,
+.list-group-item-primary {
+    background-color: #f46669!important;
+}
+.bg-secondary,
+.alert-secondary,
+.list-group-item-secondary {
+    background-color: white!important;
+}
+
+.bg-secondary{
+    background-color: white !important;
+}
+
+
+.imagen-superior .contenido{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+@media (min-width:768px) {
+    .imagen-inferior .bg-comida {
+        order: unset;
+    }
+}
+
+.imagen .contenido p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+.separador::after {
+    content:'';
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/separador.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@media (min-width:768px) {
+    .separador::after {
+        width: 80%;
+    }
+}
+.inverso::after {
+    background-image: url(../img/separador-inverso.png);
+}
+aside .inverso::after {
+    width: 100%;
+}
+.nosotros .informacion h3 {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.card {
+    margin-bottom: 2rem;
+}
+.card-meta span {
+    font-weight: 700;
+}
+.card-subtitle {
+    color: #f46669;
+    font-weight: 400;
+}
+.card-body p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.licenciatura {
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.licenciatura .row{
+    height: 38rem;
+}
+.licenciatura .contenido h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.licenciatura .contenido p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.btn-primary {
+    background-color: #f46767;
+    border-color:#f46767;
+}
+.btn-primary:hover {
+    background-color: #dc4747;
+    border-color: #dc4747;
+}
+.footer {
+    
+    background-image: url('./img/image.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 300;
+   
+    
+ 
+}
+
+.logo_footer{
+    position: absolute;
+    width: 180px;
+    height: 90px;  
+    left: 0%;
+    
+}
+
+.texto_footer{
+    color: white;
+    margin-top: 120px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+
+
+
+.linea_footer{
+    background-color: #1c222d;
+    height: 73px;
+    padding-top: 25px;
+    color: white;
+    z-index: 300;
+    
+}
+
+header{
+    background-color: #56d0ed;
+    height: 178px;
+  
+}
+
+@media (min-width:1200px) {
+header{
+    background-color: #56d0ed;
+    height: 150px;  
+}
+}
+
+#nav_principal{
+    margin-top: 30px;    
+}
+
+.nav-link {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: black;
+    border-bottom: solid 3px black;
+}
+.nav-link.active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.nav-footer{
+    display: block;
+    color: white !important;
+
+}
+.nav-footer:hover{
+    display: block;
+    color: white !important;
+    
+    } 
+
+.copyright {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+/** Imagenes **/
+.imagen-destacada {
+    height: 24rem;
+    background-size: cover;
+}
+.nosotros-bg {
+    background-image: url(../img/principal1.jpg);
+}
+.clase-bg {
+    background-image: url(../img/clase1.jpg);
+}
+.contacto-bg {
+    background-image: url(../img/principal2.jpg);
+}
+
+/** Nosotros **/
+.contenido-nosotros {
+    margin-top: -5rem;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    z-index: 100;
+}
+
+blockquote.subtitulo {
+    font-size: 1.6rem;
+    color: #303030;
+    font-style: italic;
+    font-weight: 100;
+    border-left: .2rem solid #f46669;
+}
+/** Enlaces **/
+.contenido-entrada .meta p{
+    font-weight: 700;
+}
+.entrada a {
+    color: #f46669;
+}
+
+/** Sidebar **/
+aside a, aside a:hover {
+    color: #f5f5f5;
+}
+aside .card {
+    border:none;
+}
+aside .card-meta {
+    background-color: #c7c57d!important;
+}
+aside .card-meta .badge-primary {
+    background-color: #f46767;
+}
+aside .card-title {
+    color: black;
+    font-size: 1.2rem;
+}
+aside .card-footer {
+    background-color: #c7c57d;
+}
+aside .card-footer a{
+    color: black;
+}
+
+/* Clases */
+.instructor {
+    font-size: 1.8rem;
+    color: #f46669;
+}
+
+
+
+
+
+/*PLUGUIN*/
+
+/* REGISTRO*/
+
+/*ensayo*/
+
+#um_field_159_first_name .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:40px;
+    height: 20px;   
+    background-color: black!important;
+}
+
+#um_field_159_last_name .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_edad .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:78px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_birth_date .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:78px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_profesion .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:26px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_tipo_de_documento  .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    position:relative;
+    top:26px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_documento  .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+
+#um_field_159_phone_number .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_nacionalidad .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_ciudad_de_residencia .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+
+#um_field_159_user_email .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_159_user_password .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000000000000000;
+    position:relative;
+    top:-40px;
+    height: 20px;
+    background-color:  black!important;
+}
+
+#um_field_160_username .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000000000000000;
+    position:relative;
+    top:90px;
+    height: 20px;
+    background-color: black!important;
+}
+
+#um_field_160_user_password .um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    z-index: 1000000000000000;
+    position:relative;
+    top:90px;
+    height: 20px;
+    background-color:  #5cdaed!important;
+}
+
+#um_field_160_username{
+    margin-bottom: 5px!important;
+   
+}
+
+
+
+
+
+/* FIN REGISTRO*/
+
+
+/*INICIO DE SESION*/
+
+
+     
+     #username-160{
+    background-image: url('./img/email.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px gray!important;
+    height: 41px !important;
+    max-width: 363px!important;
+    border-radius: 5px;
+    text-indent: 30px;
+    position: relative;
+    top:50px;
+    z-index: 50000;
+}
+
+/* 
+.um-field-error{
+    position: absolute!important;    
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+} */
+
+
+.um-faicon-caret-up{
+   color: #56d0ed!important;
+}
+
+
+#user_password-160{
+    background-image: url('./img/suche.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: black;
+    border: solid 1px black!important;
+    height: 41px !important;
+    max-width: 363px!important;
+    border-radius: 5px;
+    text-indent: 30px;
+    position: relative;
+    top:50px;
+}
+
+
+
+#um-submit-btn{
+    max-width: 166px;
+    height: 41px;
+    margin: 25px 31px 24px 0;
+    padding: 8px 42px 9px 44px;
+    border-radius: 3px;
+    border: solid 1px black !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+
+.um-right a{
+    max-width: 166px;
+    height: 45px !important;
+    margin: 25px 31px 24px 0;
+    padding: 8px 42px 9px 44px;
+    border-radius: 3px !important;
+    background-color: black !important;
+    border: solid 1px black ;
+    left: -15px;
+    color: white !important;
+}
+
+
+@media (min-width:768px) {
+.um-right a{
+  left: -35px;
+}
+}
+
+.um-field-checkbox-option,
+.um-icon-android-checkbox-outline-blank,
+.um-icon-android-checkbox-outline{
+    position: relative;
+    top:115px;
+    color:black!important;   
+}
+
+
+.um-form-field{
+    margin-bottom: 70px!important;
+    z-index: 1000;
+}
+
+
+
+.um-link-alt{
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+
+.encabezado_inicio_sesion{
+    padding: 50px 0px 0px 100px;
+}
+
+.encabezado_inicio_sesion .col-12{
+    margin-bottom: 20px;
+    position: relative;
+    left: -20px;
+}
+
+.imagen_iniciosesion{
+    position: relative;
+    top: -10px;
+}
+
+.formulario_iniciosesion{
+    padding-left: 10px!important;
+}
+
+
+/*REGISTRO*/
+
+.imagen_registro{
+     padding: 20% 60px 0px 60px;   
+     color: white;
+}
+
+#last_name-159,
+#first_name-159,
+#edad-159,
+#birth_date-159,
+#documento-159,
+#phone_number-159,
+#nacionalidad-159,
+#ciudad_de_residencia-159,
+#user_email-159,
+#user_password-159,
+#confirm_user_password-159{
+    border: 1px solid black !important;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px!important;
+    margin-bottom: 5px!important;
+ 
+}
+
+
+
+
+#documento-159,
+#phone_number-159,
+#nacionalidad-159,
+#ciudad_de_residencia-159,
+#user_email-159,
+#user_password-159,
+#confirm_user_password-159{
+    position: relative;
+    top: -80px;
+  
+}
+
+
+
+.select2-selection{
+       border: 1px solid black !important;
+    background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px!important;
+}
+
+#um_field_159_tipo_de_documento,
+#um_field_159_profesion{
+    border: 1px solid black !important;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px!important;
+    height: 40px!important;
+    margin-top: 20px;
+    padding: 0px;
+    position: relative;
+    top: -80px;
+}
+
+/* ============================================== */
+
+#um_field_159_tipo_de_documento{
+    margin-bottom: 10px;
+}
+
+/* ============================================== */
+
+
+#select2-tipo_de_documento-container{
+   height: 25px!important;
+}
+
+
+#last_name-159:hover,
+#first_name-159:hover,
+#edad-159:hover,
+#birth_date-159:hover,
+#documento-159:hover,
+#documento-159:hover,
+#phone_number-159:hover,
+#nacionalidad-159:hover,
+#ciudad_de_residencia-159:hover,
+#user_email-159:hover,
+#user_password-159:hover,
+#confirm_user_password-159:hover,
+#um_field_159_tipo_de_documento:hover{
+    border: 2px solid #56d0ed !important;
+    background-color: rgba(255, 255, 255, 0);
+   
+  
+}
+
+.um-field-label label{
+    position: relative!important;
+    top: 25px !important;
+    left: 10px !important;
+    background-color:white!important;
+    z-index: 5000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#um_field_159_edad{
+    position: relative;
+    top: -20px;
+}
+
+#edad-159{
+    width: 130px!important;
+    height: 40px!important;
+}
+
+#documento-159{
+    height: 40px!important;
+    width: 100%;
+}
+
+#um_field_159_birth_date{
+      position: relative;
+    top: -118px;
+    left: 40%;
+    max-width: 60%!important;
+    height: 40px!important;
+}
+
+
+
+
+form .um-col-alt .um-right #um-submit-btn{
+    background-color: blue!important; 
+    
+}
+
+
+
+
+.alinear{
+    padding-top: 70px;
+ 
+}
+
+.um-toggle-gdpr{
+    position: relative;
+    top: -91px;
+    left:106px;
+    background-color: white;
+    z-index: 5000;
+    color: grey;
+    font-size: 18px;
+    text-decoration: none!important;
+}
+
+
+.um-toggle-gdpr :hover{
+
+    color: black;
+    
+}
+
+.um-notice{
+     /* display: none;  */
+    z-index: 10000;
+    background-color:  #5cdaed!important;
+}
+
+.um-right .prueba_boton{
+    background-color: rgba(0, 0, 0, 0)!important;   
+    color: black !important;
+    position: relative;
+    top: -48px;
+    left: -200px;
+    box-shadow: none;
+    width: 300px!important;
+
+}
+
+.um-right .prueba_boton:hover{
+   
+    box-shadow: none;
+
+}
+
+.prueba_boton_ancho {
+    width: 600px!important;
+}
+.prueba_boton_ancho #um-submit-btn{
+    max-width: 340px!important;
+}
+
+@media (min-width:360px) {
+    .prueba_boton_ancho #um-submit-btn{
+        max-width: 360px!important;
+    }   
+
+
+    @media (min-width:400px) {
+        .prueba_boton_ancho #um-submit-btn{
+            max-width: 450px!important;
+        }   
+        
+    }  
+}
+
+.contenido_registro{
+    height: 1550px!important;
+}
+
+@media (min-width:500px) {
+    .prueba_boton_ancho #um-submit-btn{
+        max-width: 450px!important;
+    }   
+    /* ================================ */
+
+    .contenido_registro{
+        height: 1100px!important;
+    }
+
+}
+
+/* ================================ */
+
+
+
+
+/*----CONTACTO------*/
+
+
+.contacto_contacto{
+    background-color: black!important;
+    padding: 0px 0px 0px 50px
+}
+
+
+.contacto_contacto {
+    color: white;
+
+  
+}
+
+.div_contacto{
+    background-color: white;
+}
+
+
+.alinear1{
+    padding-top: 70px;
+    padding-left: 100px;
+ 
+}
+
+.redes_contacto{
+    margin-bottom: 50px;
+}
+
+.redes_contacto_youtube{
+ margin-right: 20px;   
+}
+
+.logos_contacto{
+    width: 40px;
+}
+
+
+/*---- FIN CONTACTO------*/
+
+
+
+
+/*---- Inicio asesoria virtual------*/
+
+
+.titulos_asesoria_virtual{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.imagen_asesoria{
+    height: 532px;
+    margin-bottom: 50px;
+}
+
+.div_boton_asesoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+ 
+}
+
+.div_boton_asesoria a{
+    color: white!important;
+    text-decoration: none!important;
+    background-color: #1c222d;
+    width: 191px;
+    height: 53px;
+    padding: 16px 37px 18px 39px;
+}
+
+/*---- Fin asesoria virtual------*/
+
+
+
+/*WIZARD*/
+
+
+.titulo1{
+    margin-top: 50px;
+    color: #5cdaed;
+    font-size: 1.0rem;
+}
+
+
+
+
+.titulo{
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.componente2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.componente3 input{
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.32);
+    padding-left: 10px;
+     padding-right: 10px;
+}
+
+.componente3 select{
+    margin: 5px;
+    width: 100%;
+    height: 50px!important;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.32);
+    background-color: white;
+        padding-left: 10px;
+     padding-right: 10px;
+}
+
+.componente3 select:hover{
+border: solid 3px #56d0ed;
+}
+
+.componente3 input:hover{
+border: solid 3px #56d0ed;
+}
+
+ .btn-next{
+     cursor: pointer;
+      display: flex;
+    flex-direction: row;
+justify-content: center;
+    padding: 10px;
+     padding-top:70px;
+    width: 300px;
+    height: 192px;
+    border-radius: 4px;
+    border: solid 1px #e4e4e4;
+    margin: 10px;
+   text-align: center;
+}
+
+
+ .btn-next:hover{
+      
+  background-color: #56d0ed;
+   border: none;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.21);
+}
+
+
+ .btn-next img{
+  width: 60px;
+  height: 60px;
+}
+
+
+@media (min-width:411px) {
+.btn-next{
+      display: flex;
+    flex-direction: row;
+  
+    padding: 10px;
+    padding-top:70px;
+    width: 300px;
+    height: 192px;
+    text-align: center;
+    border-radius: 4px;
+    border: solid 1px #e4e4e4;
+      text-align: center;
+}
+
+}
+
+
+
+.btn-back{
+    cursor: pointer;
+    width: 300px;
+    height: 192px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    border-radius: 4px;
+    border: solid 1px #e4e4e4;
+}
+
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.botones .btn-back{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 191px;
+    height: 53px;
+    padding: 16px 70px 18px 71px;
+    border-radius: 4px;
+    border: solid 1px #e4e4e4;
+margin: 50px 10px;
+}
+
+.botones .btn-next{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 191px;
+    height: 53px;
+    padding: 16px 56px 19px 57px;
+    border-radius: 3px;
+    background-color: #1c222d;
+    color: white;
+   margin: 50px 10px;
+}
+
+/* PAGINA EL ABC */
+
+
+.ln-letters {
+   
+    margin: 0px 100px 0px 100px;
+}
+
+.glossaryList{
+    margin: 0px 100px 50px 100px!important;
+}
+
+
+.ln-letters a {
+    font-size: 30px;
+    display: block;
+    float: left;
+    padding: 2px 6px;
+  border: none; 
+    border-right: none;
+   text-decoration: none; 
+    margin: 20px 0px 20px 13px;
+}
+
+.ln-disabled{
+ color: black!important;   
+}
+
+
+/* FIN PAGINA EL ABC */
+
+
+/*profile*/
+
+
+.lateral{
+    width: 249px;
+  height: 900px;
+  background-color: #1c222d;
+  padding: 0px 59px 50px 22px;
+}
+
+.um-profile-photo-img{
+    position: relative  !important;
+    top: 30px;
+    left: -30px !important;
+    width: 80px;
+    height: 80px;
+
+   
+}
+
+.um-profile-edit{
+    display: none;
+}
+
+.um-faicon-camera{
+    display: none!important;
+}
+
+#um-profile-photo {
+    border: none !important;    
+    border-bottom: none  !important;
+}
+
+.um-header{
+    border-bottom: none!important;
+    color: white!important;
+}
+
+.um-meta-text{
+display: none;
+}
+
+.um-name{
+    position: relative;
+    top: -45px;
+    left: 85px;
+ 
+}
+
+.um-name a{
+    font-size: 16px;
+    color: white!important;
+}
+
+#bordeNone{
+    border-bottom: none!important;
+}
+
+
+.gravatar{
+    border-bottom: none  !important;
+}
+
+
+/* fin profile*/
+
+
+
+.sidebar {
+  position: relative!important;
+  top: -68px!important;
+  left: -250px;
+  width: 250px;
+  height: 700px;
+  background-color: #1c222d;
+  transition: all .5s ease;
+  
+}
+
+
+
+
+.sidebar header {
+    padding-left: 30px;
+  font-size: 22px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background-color: #1c222d;
+  user-select: none;
+}
+
+
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+label #btn{
+  left: 0px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+  background-color: white;
+ 
+}
+label #cancel{
+    position: relative; 
+
+  left: -185px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all .5s ease;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  border:none;
+}
+
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: none;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    
+    content: none;
+  
+}
+
+.chulo1{
+    z-index: 1000000;
+    position: relative;
+    border-radius: 300px;
+left:-10px;
+  width: 60px;
+  height: 60px;
+  border: solid 7px white;
+  }
+
+  .chulo2{
+    position: relative;
+
+  width: 50px;
+  height: 50px;
+  }
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+#check:checked ~ label #cancel{
+  left: 155px;
+  background-color: white;
+  height: 100px!important;
+  width: 70px!important;
+}
+#check:checked ~ sections{
+  margin-left: 250px;
+  position: absolute;
+  top: 200px;
+
+}
+sections{
+    position: absolute;
+    top: 200px;
+    background: url(bg.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+    padding-left: 500px;
+}
+
+.fa-times, .fa-bars{    
+   
+    position: relative!important;
+    top: 100px!important;
+    width: 20px!important;
+    z-index: 80!important;
+   
+}
+
+.contenedor_perfil{
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+
+}
+
+.items_sidebarmenu{
+    color: white;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+/* footer2 */
+
+
+
+
+.footer2{
+    min-height: 117px;
+    background-color: black; 
+}
+
+.div_footer2{
+   padding: 40px;
+}
+
+.div_footer2_derecha{
+   
+    padding-top: 40px;
+    align-items: center!important;
+}
+
+.um-misc-ul li a::marker{
+  color: black!important;
+ 
+}
+
+
+/* fin footer2 */
+
+
+.btn-grid{
+    width: 191px;
+    height: 53px;
+    background-color: black; 
+    border: none;
+}
+
+.btn-grid:hover{
+    width: 191px;
+    height: 53px;
+    background-color: #56d0ed; 
+    border: none;
+    
+}
+
+#filtro{
+ 
+    height: 70px;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.13);
+    width: 600px!important;
+    margin: 20px;
+
+}
+
+#btn-pago{
+    background-color: black; 
+    border: none;
+}
+
+#btn-pago:hover{
+    background-color: black; 
+    border: none;
+    background-color: #56d0ed; 
+}
+
+.um-misc-ul{
+    display: flex;
+    flex-direction: row;    
+}
+
+
+.um-misc-ul li{
+      text-align: center;
+      padding-top: 15px;
+    margin: 10px;
+    width: 191px!important;
+    height: 33px!important;
+    background-color: black!important;
+    
+
+    
+}
+
+.um-misc-ul li a{
+    text-align: center;
+    position: relative;
+    width: 191px!important;
+    height: 53px!important;
+    color: white!important;
+    text-decoration: none;
+    background-color: black!important;
+
+}
+
+
+
+.um-misc-ul li::marker{
+    color: white;
+}
+
+
+
+
+/* =============== */
+
+
+@media (min-width:1000px) {
+
+
+    #menu-item-296 a{         
+        color: black!important;
+        border: none!important;
+    
+    }
+
+
+    #menu-item-296{
+        background-color: white;
+        border: none!important;
+        margin-left: 5px;
+    }
+        
+        
+}
+
+
+
+/* =============== */
